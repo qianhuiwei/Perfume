@@ -17761,7 +17761,14 @@ ul {
   margin: 0;
 }
 
-/* darken effect for soldout product */
+.main {
+  /* darken effect for soldout product */
+}
+
+.main .banner img {
+  min-height: 480px;
+}
+
 .main .feature-2 .soldout {
   opacity: 0.3;
   width: 100%;

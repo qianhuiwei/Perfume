@@ -16,8 +16,14 @@ ul{
     margin: 0;
 }
 
-/* darken effect for soldout product */
 .main{
+    .banner {
+        img {
+            min-height: 480px;
+        }
+    }
+    
+    /* darken effect for soldout product */
     .feature-2 {
         .soldout {
             opacity: 0.3;
@@ -26,7 +32,4 @@ ul{
         }
     }
 }
-
-
-
 
