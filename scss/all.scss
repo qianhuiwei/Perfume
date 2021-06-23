@@ -17,10 +17,11 @@ ul{
 }
 
 .main{
+    /* set banner's background */
     .banner {
-        img {
-            min-height: 480px;
-        }
+        background: url("../images/index1 Cropped.jpg");
+        min-height: 480px;
+        background-size: cover;
     }
     
     /* darken effect for soldout product */

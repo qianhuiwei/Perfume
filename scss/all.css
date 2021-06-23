@@ -17762,11 +17762,14 @@ ul {
 }
 
 .main {
+  /* set banner's background */
   /* darken effect for soldout product */
 }
 
-.main .banner img {
+.main .banner {
+  background: url("../images/index1 Cropped.jpg");
   min-height: 480px;
+  background-size: cover;
 }
 
 .main .feature-2 .soldout {
