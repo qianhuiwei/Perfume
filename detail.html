@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>香水電商 D'PERFUME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="scss/all.css">
+</head>
+
+<body>
+    <div class="header container pt-2 pb-2">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid p-0">
+                <!--logo-->
+                <h1><a class="navbar-brand" href="index.html"><img src="images/d’Perfume@2x.png" alt="logo"></a></h1>
+                <div class="d-flex align-items-start">
+                    <!--shopping cart icon-->
+                    <div class="position-relative mt-2 me-6 d-lg-none">
+                        <span class="material-icons text-dark">shopping_cart</span>
+                        <a href="#" class="stretched-link">
+                            <span class="badge rounded-pill bg-primary text-white position-absolute top-0 start-100 translate-middle">3</span>
+                        </a>
+                    </div>
+                    <!--navnar toggler-->
+                    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <img src="images/bars.svg" alt="menu icon">
+                    </button>
+                </div>
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+                    <ul class="navbar-nav fs-5 text-center">
+                        <li class="nav-item d-lg-flex align-items-center">
+                            <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
+                                href="product.html">Product</a>
+                            <a class="link-dark fs-4 ps-4 pe-4 d-none d-lg-flex align-items-lg-center"
+                                href="product.html">
+                                <span class="material-icons">store</span>
+                                <span>Product</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-lg-flex align-items-center">
+                            <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
+                                href="#">Wishlist</a>
+                            <a class="link-dark fs-4 ps-4 pe-4 d-none d-lg-flex align-items-lg-center"
+                                href="login.html">
+                                <span class="material-icons">person</span>
+                                <span>log in</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-lg-flex align-items-center">
+                            <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
+                                href="#">Blog</a>
+                            <a class="link-dark fs-4 ps-4 pe-4 d-none d-lg-flex align-items-lg-center"
+                                href="#">
+                                <span class="material-icons">favorite</span>
+                                <span>Whishlist</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-lg-flex align-items-center">
+                            <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
+                                href="#">Contact</a>
+                            <a class="link-dark fs-4 ps-4 pe-4 d-none d-lg-flex align-items-lg-center"
+                                href="#">
+                                <span class="material-icons">shopping_cart</span>
+                                <span>Cart(3)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-lg-none">
+                            <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
+                                href="login.html">Log in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="main mt-5 mt-lg-0">
+        <div class="nav-container bg-primary pt-4 pb-4 mb-20 d-none d-lg-block">
+            <!--nav tabs-->
+            <ul class="nav container">
+                <li class="nav-item"><a href="#chanel" class="nav-link link-white fs-5 pe-7 active"
+                        data-bs-toggle="tab">CHANEL</a></li>
+                <li class="nav-item"><a href="#joMalone" class="nav-link link-white fs-5 pe-7"
+                        data-bs-toggle="tab">Jo Malone</a></li>
+                <li class="nav-item"><a href="#curology" class="nav-link link-white fs-5 pe-7"
+                        data-bs-toggle="tab">Curology</a></li>
+                <li class="nav-item"><a href="#dior" class="nav-link link-white fs-5 pe-7" data-bs-toggle="tab">Dior</a>
+                </li>
+                <li class="nav-item"><a href="#chloe" class="nav-link link-white fs-5 pe-7"
+                        data-bs-toggle="tab">Chloe</a></li>
+                <li class="nav-item"><a href="#zara" class="nav-link link-white fs-5 pe-7" data-bs-toggle="tab">Zara</a>
+                </li>
+            </ul>
+            <!--nav panes-->
+            <div class="tab-content container">
+                <div class="tab-pan fade active show" id="chanel">
+                </div>
+                <div class="tab-pan fade" id="joMalone">
+                </div>
+                <div class="tab-pan fade" id="curology">
+                </div>
+                <div class="tab-pan fade" id="dior">
+                </div>
+                <div class="tab-pan fade" id="chloe">
+                </div>
+                <div class="tab-pan fade" id="zara">
+                </div>
+            </div>
+        </div>
+        <div class="product-detail container mb-lg-15">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="row mb-lg-6">
+                        <img src="images/product1.jpg" alt="product">
+                    </div>
+                    <div class="row mb-lg-6">
+                        <div class="col-lg-6 d-none d-lg-block">
+                            <img src="images/product2.jpg" alt="product">
+                        </div>
+                        <div class="col-lg-6 d-none d-lg-block">
+                            <img src="images/product3.jpg" alt="product">
+                        </div>
+                    </div>
+                    <div class="row d-none d-lg-block">
+                        <img src="images/product1.jpg" alt="product">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h2 class="fs-2 fw-bold mt-7 mt-lg-0">CHANEL N°5</h2>
+                    <p class="fs-5 fw-light pb-4">N°5，女性魅力的極致精髓。散發柔美澄透的乙醛花束香氣。經典傳奇香氛，蘊藏於極簡設計的獨特瓶身。</p>
+                    <p class="fs-5 fw-light mb-3">NT$4,980</p>
+                    <div class="input-group rounded pb-2">
+                        <input type="number" class="form-control border border-primary border-2" placeholder="1" min="1"
+                            aria-label="User's shopping quantity">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary text-white rounded-end pt-4 pb-4 ps-13 pe-13"
+                            data-bs-toggle="modal" data-bs-target="#addToCart">
+                            加入購物車
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="addToCart" tabindex="-1" aria-labelledby="addToCart"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-body text-primary fw-bold text-center pt-4 pb-4">
+                                        已加入購物車
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn d-flex align-items-center ps-0 mb-10 mb-lg-20" data-bs-toggle="modal"
+                        data-bs-target="#addFavModal">
+                        <span class="material-icons text-primary">
+                            favorite
+                        </span>
+                        <span>加入我的收藏</span>
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="addFavModal" tabindex="-1" aria-labelledby="addFavModal"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-body text-primary fw-bold text-center pt-4 pb-4">
+                                    已加入我的收藏
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="list-unstyled">
+                        <li>
+                            <p class="fw-bold mb-2">商品購買須知</p>
+                            <p class="fw-light mb-5">產品因拍攝關係顏色可能略有差異，實際以廠商出貨為主。
+                                <br>商品情境照為示意用，僅商品主體不包含其他配件，請以規格內容物為主。
+                                <br>D’Perfume
+                                盡可能確保所列商品備貨充足，但偶爾仍會有產品售罄的情況。如您所訂購的商品庫存不足，我們將盡快以電子郵件通知您。任何訂單變動均會在訂單總額與出貨訊息內更新。
+                            </p>
+                        </li>
+                        <li>
+                            <p class="fw-bold mb-2">退換貨須知</p>
+                            <p class="fw-light mb-5">依《消費者保護法》的規定，於全站購物皆享有商品到貨【七日猶豫期】（含例假日）之權益。若收到的商品有任何問題，可於猶豫期內申請退貨。</p>
+                        </li>
+                    </ul>
+                    <img class="d-lg-none mb-4" src="images/product2.jpg" alt="product">
+                    <img class="d-lg-none mb-4" src="images/product3.jpg" alt="product">
+                    <img class="d-lg-none mb-10" src="images/product1 Cropped.jpg" alt="product">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer bg-primary text-white pt-5 pb-5">
+        <div class="container d-lg-flex justify-content-lg-between">
+            <div class="d-flex justify-content-between align-items-center">
+                <a href="#"><img src="images/d’Perfumewhite.png" alt="logo"></a>
+                <span class="ps-5">© 2020. All Rights Reserved.</span>
+            </div>
+            <ul class="list-unstyled fs-5 d-none d-lg-flex align-items-center">
+                <li><a class="link-white ps-4 pe-4" href="product.html">Product</a></li>
+                <li><a class="link-white ps-4 pe-4" href="#">Blog</a></li>
+                <li><a class="link-white ps-4 pe-4" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

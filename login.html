@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>香水電商 D'PERFUME</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="scss/all.css">
+</head>
+
+<body>
+    <div class="header container pt-2 pb-2">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid p-0">
+                <!--logo-->
+                <h1><a class="navbar-brand" href="index.html"><img src="images/d’Perfume@2x.png" alt="logo"></a></h1>
+                <div class="d-flex align-items-start">
+                    <!--shopping cart icon-->
+                    <div class="position-relative mt-2 me-6 d-lg-none">
+                        <span class="material-icons text-dark">shopping_cart</span>
+                        <a href="#" class="stretched-link">
+                            <span class="badge rounded-pill bg-primary text-white position-absolute top-0 start-100 translate-middle">3</span>
+                        </a>
+                    </div>
+                    <!--navnar toggler-->
+                    <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <img src="images/bars.svg" alt="menu icon">
+                    </button>
+                </div>
+                <!-- Collapsible content -->
+                <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNav">
+                    <ul class="navbar-nav fs-5 text-center">
+                        <li class="nav-item d-lg-flex align-items-center">
+                            <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
+                                href="product.html">Product</a>
+                            <a class="link-dark fs-4 ps-4 pe-4 d-none d-lg-flex align-items-lg-center"
+                                href="product.html">
+                                <span class="material-icons">store</span>
+                                <span>Product</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-lg-flex align-items-center">
+                            <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
+                                href="#">Wishlist</a>
+                            <a class="link-dark fs-4 ps-4 pe-4 d-none d-lg-flex align-items-lg-center"
+                                href="login.html">
+                                <span class="material-icons">person</span>
+                                <span>log in</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-lg-flex align-items-center">
+                            <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
+                                href="#">Blog</a>
+                            <a class="link-dark fs-4 ps-4 pe-4 d-none d-lg-flex align-items-lg-center"
+                                href="#">
+                                <span class="material-icons">favorite</span>
+                                <span>Whishlist</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-lg-flex align-items-center">
+                            <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
+                                href="#">Contact</a>
+                            <a class="link-dark fs-4 ps-4 pe-4 d-none d-lg-flex align-items-lg-center"
+                                href="#">
+                                <span class="material-icons">shopping_cart</span>
+                                <span>Cart(3)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item d-lg-none">
+                            <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
+                                href="login.html">Log in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="main mt-5 mt-lg-0">
+        <div class="nav-container bg-primary pt-4 pb-4 mb-20 d-none d-lg-block">
+            <!--nav tabs-->
+            <ul class="nav container">
+                <li class="nav-item"><a href="#chanel" class="nav-link link-white fs-5 pe-7 active"
+                        data-bs-toggle="tab">CHANEL</a></li>
+                <li class="nav-item"><a href="#joMalone" class="nav-link link-white fs-5 pe-7"
+                        data-bs-toggle="tab">Jo Malone</a></li>
+                <li class="nav-item"><a href="#curology" class="nav-link link-white fs-5 pe-7"
+                        data-bs-toggle="tab">Curology</a></li>
+                <li class="nav-item"><a href="#dior" class="nav-link link-white fs-5 pe-7" data-bs-toggle="tab">Dior</a>
+                </li>
+                <li class="nav-item"><a href="#chloe" class="nav-link link-white fs-5 pe-7"
+                        data-bs-toggle="tab">Chloe</a></li>
+                <li class="nav-item"><a href="#zara" class="nav-link link-white fs-5 pe-7" data-bs-toggle="tab">Zara</a>
+                </li>
+            </ul>
+            <!--nav panes-->
+            <div class="tab-content container">
+                <div class="tab-pan fade active show" id="chanel">
+                </div>
+                <div class="tab-pan fade" id="joMalone">
+                </div>
+                <div class="tab-pan fade" id="curology">
+                </div>
+                <div class="tab-pan fade" id="dior">
+                </div>
+                <div class="tab-pan fade" id="chloe">
+                </div>
+                <div class="tab-pan fade" id="zara">
+                </div>
+            </div>
+        </div>
+        <div class="container mt-lg-20 mb-lg-20">
+            <div class="row">
+                <div class="col-lg-8">
+                    <img class="mb-7 mb-lg-0" src="images/login1 Cropped.jpg" alt="login background">
+                </div>
+                <div class="col-lg-4">
+                    <h2 class="fs-2 mb-3 fw-bold">Log in</h2>
+                    <ul class="list-unstyled mb-4">
+                        <li class="mb-5">
+                            <label for="input-group-text" class="form-label">帳號</label>
+                            <div class="input-group mb-3">
+                                <input type="email" class="form-control" placeholder="email@example.com">
+                            </div>
+                        </li>
+                        <li class="mb-5">
+                            <label for="input-group-text" class="form-label">帳號</label>
+                            <div class="input-group mb-3">
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="d-flex justify-content-between align-items-center mt-4 mt-lg-0 mb-20">
+                        <a class="link-primary" href="#">忘記密碼</a>
+                        <div>
+                            <a href="#" class="btn btn-outline-primary me-2">註冊</a>
+                            <a href="mypage.html" class="btn btn-primary">登入</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer bg-primary text-white pt-5 pb-5 mt-5">
+        <div class="container d-lg-flex justify-content-lg-between">
+            <div class="d-flex justify-content-between align-items-center">
+                <a href="#"><img src="images/d’Perfumewhite.png" alt="logo"></a>
+                <span class="ps-5">© 2020. All Rights Reserved.</span>
+            </div>
+            <ul class="list-unstyled fs-5 d-none d-lg-flex align-items-center">
+                <li><a class="link-white ps-4 pe-4" href="product.html">Product</a></li>
+                <li><a class="link-white ps-4 pe-4" href="#">Blog</a></li>
+                <li><a class="link-white ps-4 pe-4" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
