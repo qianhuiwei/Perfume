@@ -17687,6 +17687,37 @@ fieldset:disabled .btn {
   }
 }
 
+/* global configuration */
+body {
+  font-family: "SF Pro Text","蘋方-繁",sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0;
+}
+
+.main {
+  /* set banner's background */
+  /* darken effect for soldout product */
+}
+
+.main .banner {
+  background: url("../images/index1 Cropped.jpg");
+  min-height: 480px;
+  background-size: cover;
+}
+
+.main .feature-2 .soldout {
+  opacity: 0.3;
+  width: 100%;
+  height: 100%;
+}
+
 /* hover effects */
 .hover-bg-primary-transparent:hover {
   background: rgba(145, 96, 25, 0.1);
@@ -17745,36 +17776,5 @@ fieldset:disabled .btn {
   border-radius: 0px;
   border-bottom: 2px solid #916019;
   background: white;
-}
-
-/* global configuration */
-body {
-  font-family: "SF Pro Text","蘋方-繁",sans-serif;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-ul {
-  margin: 0;
-}
-
-.main {
-  /* set banner's background */
-  /* darken effect for soldout product */
-}
-
-.main .banner {
-  background: url("../images/index1 Cropped.jpg");
-  min-height: 480px;
-  background-size: cover;
-}
-
-.main .feature-2 .soldout {
-  opacity: 0.3;
-  width: 100%;
-  height: 100%;
 }
 /*# sourceMappingURL=all.css.map */

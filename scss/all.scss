@@ -1,36 +1,4 @@
 @import "bootstrap/bootstrap";
+@import "index";
 @import "hover";
 @import "customize";
-
-/* global configuration */
-body {
-    font-family: "SF Pro Text","蘋方-繁",sans-serif;
-}
-
-img{
-    max-width: 100%;
-    height: auto;
-}
-
-ul{
-    margin: 0;
-}
-
-.main{
-    /* set banner's background */
-    .banner {
-        background: url("../images/index1 Cropped.jpg");
-        min-height: 480px;
-        background-size: cover;
-    }
-    
-    /* darken effect for soldout product */
-    .feature-2 {
-        .soldout {
-            opacity: 0.3;
-            width: 100%;
-            height: 100%;
-        }
-    }
-}
-
