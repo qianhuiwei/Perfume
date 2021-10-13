@@ -17687,6 +17687,7 @@ fieldset:disabled .btn {
   }
 }
 
+/* for RWD */
 /* global configuration */
 body {
   font-family: "SF Pro Text","蘋方-繁",sans-serif;
@@ -17701,15 +17702,22 @@ ul {
   margin: 0;
 }
 
-.main {
-  /* set banner's background */
-  /* darken effect for soldout product */
+/* set banner's background */
+.banner {
+  min-height: 480px;
+  background-image: url(../img/index1.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.main .banner {
-  background: url("../images/index1 Cropped.jpg");
-  min-height: 480px;
-  background-size: cover;
+@media (min-width: 992px) {
+  .banner {
+    min-height: 870px;
+  }
+}
+
+.main {
+  /* darken effect for soldout product */
 }
 
 .main .feature-2 .soldout {

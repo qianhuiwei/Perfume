@@ -1,0 +1,6 @@
+/* for RWD */
+@mixin desktop {
+    @media(min-width: 992px) {
+        @content
+    }
+}
