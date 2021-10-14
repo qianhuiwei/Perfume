@@ -40,3 +40,10 @@
       background: white;
     }
 }
+
+.form-control{
+  &:focus {
+    border-color:#916019;
+    box-shadow: 0 0 0 0.25rem rgba(172, 138, 70, .5);
+  }
+}
