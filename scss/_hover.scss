@@ -7,10 +7,14 @@
     background: rgba(0,0,0,.7) !important;
 }
 
-.hover-text-primary:hover{
-    color:#916019;
+.hover-text-black:hover{
+    color:black;
 }
 
 .hover-bg-light-gray:hover{
     background: #F9F7F7;
+}
+
+.hover-opacity:hover {
+    filter:opacity(0.8);
 }

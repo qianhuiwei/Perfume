@@ -17702,7 +17702,7 @@ ul {
   margin: 0;
 }
 
-/* set banner's background */
+/* banner styles */
 .banner {
   min-height: 480px;
   background-image: url(../images/index1.jpg);
@@ -17716,13 +17716,15 @@ ul {
   }
 }
 
-.main {
-  /* darken effect for soldout product */
+@media (min-width: 992px) {
+  .banner a {
+    width: 80%;
+  }
 }
 
-.main .featured-products img:hover {
-  -webkit-filter: opacity(0.7);
-          filter: opacity(0.7);
+/* main styles */
+.main {
+  /* darken effect for soldout product */
 }
 
 @media (min-width: 992px) {
@@ -17739,6 +17741,7 @@ ul {
   height: 100%;
 }
 
+/* subsribe styles */
 .subscribe {
   min-height: 600px;
   background-image: url(../images/index10.jpg);
@@ -17755,12 +17758,17 @@ ul {
   background: rgba(0, 0, 0, 0.7) !important;
 }
 
-.hover-text-primary:hover {
-  color: #916019;
+.hover-text-black:hover {
+  color: black;
 }
 
 .hover-bg-light-gray:hover {
   background: #F9F7F7;
+}
+
+.hover-opacity:hover {
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
 }
 
 /* customize bootstrap class effects for bootstrap components*/

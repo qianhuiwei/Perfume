@@ -12,7 +12,7 @@ ul{
     margin: 0;
 }
 
- /* set banner's background */
+ /* banner styles */
 .banner {
     min-height: 480px;
     background-image: url(../images/index1.jpg);
@@ -22,14 +22,18 @@ ul{
     @include desktop {
         min-height: 870px;
     }
+
+    a {
+        @include desktop {
+            width: 80%;
+        }
+    }
 }
-    
+ 
+/* main styles */
 .main{
     /* darken effect for soldout product */
     .featured-products {
-        img:hover {
-            filter:opacity(0.7);
-        }
         @include desktop {
             img {
                 height: 540px;
@@ -44,6 +48,7 @@ ul{
     }
 }
 
+/* subsribe styles */
 .subscribe {
     min-height: 600px;
     background-image: url(../images/index10.jpg);
