@@ -47,8 +47,7 @@
                         <li class="nav-item d-lg-flex align-items-center">
                             <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
                                 href="product.html">Product</a>
-                            <a class="link-dark ps-4 pe-4 d-none d-lg-flex align-items-lg-center"
-                                href="product.html">
+                            <a class="link-dark ps-4 pe-4 d-none d-lg-flex align-items-lg-center" href="product.html">
                                 <span class="material-icons">store</span>
                                 <span>Product</span>
                             </a>
@@ -56,8 +55,7 @@
                         <li class="nav-item d-lg-flex align-items-center">
                             <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
                                 href="#">Wishlist</a>
-                            <a class="link-dark ps-4 pe-4 d-none d-lg-flex align-items-lg-center"
-                                href="mypage.html">
+                            <a class="link-dark ps-4 pe-4 d-none d-lg-flex align-items-lg-center" href="mypage.html">
                                 <span class="material-icons">person</span>
                                 <span>Mypage</span>
                             </a>
@@ -89,43 +87,69 @@
     </div>
 
     <div class="main mt-5 mt-lg-0">
-        <div class="nav-container bg-primary pt-4 pb-4 mb-20 d-none d-lg-block">
-            <!--nav tabs-->
-            <ul class="nav container">
-                <li class="nav-item"><a href="#chanel" class="nav-link link-white fs-5 pe-7 active"
-                        data-bs-toggle="tab">CHANEL</a></li>
-                <li class="nav-item"><a href="#joMalone" class="nav-link link-white fs-5 pe-7" data-bs-toggle="tab">Jo
-                        Malone</a></li>
-                <li class="nav-item"><a href="#curology" class="nav-link link-white fs-5 pe-7"
-                        data-bs-toggle="tab">Curology</a></li>
-                <li class="nav-item"><a href="#dior" class="nav-link link-white fs-5 pe-7" data-bs-toggle="tab">Dior</a>
+        <!--nav tabs-->
+        <div class="bg-primary pt-4 pb-4 mb-20 d-none d-lg-block">
+            <ul class="nav container" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a href="#" class="nav-link active link-white fs-5 pe-7 hover-text-black" id="chanel-tab"
+                        data-bs-toggle="tab" data-bs-target="#chanel" type="button" role="tab" aria-controls="chanel"
+                        aria-selected="true">CHANEL</a>
                 </li>
-                <li class="nav-item"><a href="#chloe" class="nav-link link-white fs-5 pe-7"
-                        data-bs-toggle="tab">Chloe</a></li>
-                <li class="nav-item"><a href="#zara" class="nav-link link-white fs-5 pe-7" data-bs-toggle="tab">Zara</a>
+                <li class="nav-item" role="presentation">
+                    <a href="#" class="nav-link link-white fs-5 pe-7 hover-text-black" id="joMalone-tab"
+                        data-bs-toggle="tab" data-bs-target="#joMalone" type="button" role="tab"
+                        aria-controls="joMalone" aria-selected="false">Jo
+                        Malone</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a href="#" class="nav-link link-white fs-5 pe-7 hover-text-black" id="curology-tab"
+                        data-bs-toggle="tab" data-bs-target="#curology" type="button" role="tab"
+                        aria-controls="curology" aria-selected="false">Curology</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a href="#" class="nav-link link-white fs-5 pe-7 hover-text-black" id="dior-tab"
+                        data-bs-toggle="tab" data-bs-target="#dior" type="button" role="tab" aria-controls="dior"
+                        aria-selected="false">Dior</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a href="#" class="nav-link link-white fs-5 pe-7 hover-text-black" id="chloe-tab"
+                        data-bs-toggle="tab" data-bs-target="#chloe" type="button" role="tab" aria-controls="chloe"
+                        aria-selected="false">Chloe</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a href="#" class="nav-link link-white fs-5 pe-7 hover-text-black" id="zara-tab"
+                        data-bs-toggle="tab" data-bs-target="#zara" type="button" role="tab" aria-controls="zara"
+                        aria-selected="false">Zara</a>
                 </li>
             </ul>
-            <!--nav panes-->
-            <div class="tab-content container">
-                <div class="tab-pan fade active show" id="chanel">
-                </div>
-                <div class="tab-pan fade" id="joMalone">
-                </div>
-                <div class="tab-pan fade" id="curology">
-                </div>
-                <div class="tab-pan fade" id="dior">
-                </div>
-                <div class="tab-pan fade" id="chloe">
-                </div>
-                <div class="tab-pan fade" id="zara">
-                </div>
+        </div>
+        <!--nav panes-->
+        <div class="tab-content container">
+            <div class="tab-pane fade show active" id="chanel" role="tabpanel" aria-labelledby="chanel-tab">
+            </div>
+            <div class="tab-pane fade" id="joMalone" role="tabpanel" aria-labelledby="joMalone-tab">
+                <p class="text-dark fs-5 mb-20"></p>
+            </div>
+            <div class="tab-pane fade" id="curology" role="tabpanel" aria-labelledby="curology-tab">
+                <p class="text-dark fs-5 mb-20"></p>
+            </div>
+            <div class="tab-pane fade" id="dior" role="tabpanel" aria-labelledby="dior-tab">
+                <p class="text-dark fs-5 mb-20"></p>
+            </div>
+            <div class="tab-pane fade" id="chloe" role="tabpanel" aria-labelledby="chloe-tab">
+                <p class="text-dark fs-5 mb-20"></p>
+            </div>
+            <div class="tab-pane fade" id="zara" role="tabpanel" aria-labelledby="zara-tab">
+                <p class="text-dark fs-5 mb-20"></p>
             </div>
         </div>
+        <!--account info-->
         <div class="container">
             <div class="row">
+                <!--會員中心-->
                 <div class="col-lg-2">
                     <h3 class="fs-5 text-gray-4 mb-7 d-none d-lg-block">會員中心</h3>
-                    <!-- Nav tabs -->
+                    <!-- nav tabs -->
                     <ul class="nav list-unstyled justify-content-between flex-lg-column">
                         <li class="nav-item">
                             <a class="nav-link link-gray-4 p-0 mb-6 d-inline-block active" data-bs-toggle="tab"
@@ -143,176 +167,172 @@
                 </div>
                 <div class="col-lg-10">
                     <div class="row flex-lg-row-reverse">
+                        <!--會員編碼-->
                         <div class="col-lg-4 mt-4 mt-lg-0">
                             <p class="d-flex align-items-center mb-6">
                                 <span class="material-icons">person</span>
                                 <span class="text-light pe-1">會員編碼</span>
                                 <span class="text-dark">T00020080615</span>
                             </p>
-                            <div class="row row-cols-2 gy-4 gy-lg-2 text-light">
-                                <!--row-->
-                                <div class="col-3 col-lg-4">購物車</div>
-                                <div class="col-9 col-lg-8">56</div>
-                                <!--row-->
-                                <div class="col-3 col-lg-4">我的收藏</div>
-                                <div class="col-9 col-lg-8">23</div>
-                                <!--row-->
-                                <div class="col-3 col-lg-4">完成訂單</div>
-                                <div class="col-9 col-lg-8">8</div>
-                                <!--row-->
-                                <div class="col-3 col-lg-4">會員紅利</div>
-                                <div class="col-9 col-lg-8">2680</div>
-                                <!--row-->
-                                <div class="col-3 col-lg-4">邀請碼</div>
-                                <div class="col-9 col-lg-8">TK2075</div>
-                            </div>
+                            <ul class="account-summary list-unstyled text-light">
+                                <li class="row mb-4">
+                                    <span class="col-3 col-lg-4">購物車</span>
+                                    <span class="content col-9 col-lg-8">56</span>
+                                </li>
+                                <li class="row mb-4">
+                                    <span class="col-3 col-lg-4">我的收藏</span>
+                                    <span class="col-9 col-lg-8">23</span>
+                                </li>
+                                <li class="row mb-4">
+                                    <span class="col-3 col-lg-4">完成訂單</span>
+                                    <span class="col-9 col-lg-8">8</span>
+                                </li>
+                                <li class="row mb-4">
+                                    <span class="col-3 col-lg-4">會員紅利</span>
+                                    <span class="col-9 col-lg-8">2680</span>
+                                </li>
+                                <li class="row">
+                                    <span class="col-3 col-lg-4">邀請碼</span>
+                                    <span class="col-9 col-lg-8">TK2075</span>
+                                </li>
+                            </ul>
                             <p class="fs-6 text-gray-5">新戶輸入邀請碼即可獲贈紅利點數1000點</p>
                         </div>
                         <div class="col-lg-8">
-                            <!-- Tab panes -->
+                            <!-- nav panes -->
                             <div class="tab-content">
+                                <!--個人資料修改-->
                                 <div class="tab-pane fade show active" id="會員資料修改">
-                                    <ul class="list-unstyled">
-                                        <li>
-                                            <p class="fw-bold border-bottom border-1 border-light pb-2 mt-10 mt-lg-0">
-                                                個人資料修改</p>
-                                            <div class="text-light mb-12">
-                                                <div class="row mb-5">
-                                                    <div class="col-3">會員帳號</div>
-                                                    <div class="col-6 col-lg-6">email@example.com</div>
-                                                    <div class="col-lg-3"></div>
+                                    <form>
+                                        <h2 class="h6 fw-bold border-bottom border-1 border-light pb-2 mt-10 mt-lg-0 mb-4">
+                                            個人資料修改</h2>
+                                        <ul class="list-unstyled text-light mb-12">
+                                            <li class="row mb-5">
+                                                <p class="col-3 m-0">會員帳號</p>
+                                                <div class="col-6 col-lg-6">email@example.com</div>
+                                            </li>
+                                            <li class="row mb-5">
+                                                <label for="inputName" class="col-3 form-label">會員姓名</label>
+                                                <div class="col-9 col-lg-6">
+                                                    <input type="text" class="form-control" id="inputName">
                                                 </div>
-                                                <div class="row mb-5">
-                                                    <div class="col-3">會員姓名</div>
-                                                    <div class="col-9 col-lg-6">
-                                                        <input type="text" class="form-control">
-                                                    </div>
-                                                    <div class="col-lg-3"></div>
+                                            </li>
+                                            <li class="row mb-5">
+                                                <p class="col-3 m-0">會員性別</p>
+                                                <div class="col-3 col-lg-2">
+                                                    <select class="form-select text-light">
+                                                        <option selected>女</option>
+                                                        <option>男</option>
+                                                    </select>
                                                 </div>
-                                                <div class="row mb-5">
-                                                    <div class="col-3">會員性別</div>
-                                                    <div class="col-3 col-lg-2">
-                                                        <select class="form-select text-light">
-                                                            <option selected>女</option>
-                                                            <option>男</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-lg-7"></div>
+                                            </li>
+                                            <li class="row mb-5">
+                                                <label for="inputEamil" class="col-3 form-label">電子信箱</label>
+                                                <div class="col-9 col-lg-6">
+                                                    <input type="email" class="form-control" id="inputEamil"
+                                                        placeholder="email@example.com">
                                                 </div>
-                                                <div class="row mb-5">
-                                                    <div class="col-3">電子信箱</div>
-                                                    <div class="col-9 col-lg-6">
-                                                        <input type="email" class="form-control"
-                                                            placeholder="email@example.com">
-                                                    </div>
-                                                    <div class="col-lg-3"></div>
+                                            </li>
+                                            <li class="row mb-5">
+                                                <label for="inputPhone" class="col-3 form-label">手機號碼</label>
+                                                <div class="col-9 col-lg-6">
+                                                    <input type="tel" class="form-control" id="inputPhone">
                                                 </div>
-                                                <div class="row mb-5">
-                                                    <div class="col-3">手機號碼</div>
-                                                    <div class="col-9 col-lg-6">
-                                                        <input type="tel" class="form-control">
-                                                    </div>
-                                                    <div class="col-lg-3"></div>
-                                                </div>
-                                                <div class="row mb-5">
-                                                    <div class="col-3">聯絡地址</div>
-                                                    <div class="col-9 col-lg-6">
-                                                        <div class="row gx-2">
-                                                            <div class="col-6">
-                                                                <select class="form-select text-light mb-2">
-                                                                    <option selected>台灣及離島</option>
-                                                                </select>
-                                                            </div>
-                                                            <div class="col-6"></div>
-                                                            <div class="col-6">
-                                                                <select class="form-select text-light mb-2">
-                                                                    <option selected>高雄市</option>
-                                                                    <option>台北市</option>
-                                                                </select>
-                                                            </div>
-                                                            <div class="col-6">
-                                                                <select class="form-select text-light mb-2">
-                                                                    <option selected>鹽埕區</option>
-                                                                    <option>大寮區</option>
-                                                                </select>
-                                                            </div>
+                                            </li>
+                                            <li class="row mb-5">
+                                                <p class="col-3 m-0">聯絡地址</p>
+                                                <div class="col-9 col-lg-6">
+                                                    <div class="row gx-2">
+                                                        <div class="col-6">
+                                                            <select class="form-select text-light mb-2">
+                                                                <option selected>台灣及離島</option>
+                                                            </select>
                                                         </div>
-                                                        <input type="text" placeholder="請輸入地址"
-                                                            class="form-control mb-3">
-                                                        <div class="form-check">
-                                                            <input class="form-check-input bg-primary" type="checkbox"
-                                                                value="" id="flexCheckChecked" checked>
-                                                            <label class="form-check-label" for="flexCheckChecked">
-                                                                我願意收到最新優惠情報
-                                                            </label>
+                                                        <div class="col-6"></div>
+                                                        <div class="col-6">
+                                                            <select class="form-select text-light mb-2">
+                                                                <option selected>高雄市</option>
+                                                                <option>台北市</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <select class="form-select text-light mb-2">
+                                                                <option selected>鹽埕區</option>
+                                                                <option>大寮區</option>
+                                                            </select>
                                                         </div>
                                                     </div>
-                                                    <div class="col-lg-3"></div>
+                                                    <input type="text" placeholder="請輸入地址" class="form-control mb-3">
+                                                    <div class="form-check">
+                                                        <input class="form-check-input bg-primary" type="checkbox"
+                                                            value="" id="flexCheckChecked" checked>
+                                                        <label class="form-check-label" for="flexCheckChecked">
+                                                            我願意收到最新優惠情報
+                                                        </label>
+                                                    </div>
                                                 </div>
-                                                <div class="row mb-5">
-                                                    <div class="col-3">配送地址</div>
-                                                    <div class="col-9 col-lg-6">
-                                                        <div class="row gx-2">
-                                                            <div class="col-6">
-                                                                <select class="form-select text-light mb-2">
-                                                                    <option selected>台灣及離島</option>
-                                                                </select>
-                                                            </div>
-                                                            <div class="col-6"></div>
-                                                            <div class="col-6">
-                                                                <select class="form-select text-light mb-2">
-                                                                    <option selected>高雄市</option>
-                                                                    <option>台北市</option>
-                                                                </select>
-                                                            </div>
-                                                            <div class="col-6">
-                                                                <select class="form-select text-light mb-2">
-                                                                    <option selected>鹽埕區</option>
-                                                                    <option>大寮區</option>
-                                                                </select>
-                                                            </div>
+                                            </li>
+                                            <li class="row mb-5">
+                                                <p class="col-3 m-0">配送地址</p>
+                                                <div class="col-9 col-lg-6">
+                                                    <div class="row gx-2">
+                                                        <div class="col-6">
+                                                            <select class="form-select text-light mb-2">
+                                                                <option selected>台灣及離島</option>
+                                                            </select>
                                                         </div>
-                                                        <input type="text" placeholder="請輸入地址"
-                                                            class="form-control mb-3">
-                                                        <button class="btn btn-primary">確定修改</button>
+                                                        <div class="col-6"></div>
+                                                        <div class="col-6">
+                                                            <select class="form-select text-light mb-2">
+                                                                <option selected>高雄市</option>
+                                                                <option>台北市</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col-6">
+                                                            <select class="form-select text-light mb-2">
+                                                                <option selected>鹽埕區</option>
+                                                                <option>大寮區</option>
+                                                            </select>
+                                                        </div>
                                                     </div>
-                                                    <div class="col-lg-3"></div>
+                                                    <input type="text" placeholder="請輸入地址" class="form-control mb-6">
+                                                    <button class="btn btn-primary">確定修改</button>
                                                 </div>
-                                            </div>
-                                        </li>
-                                        <li>
-                                            <p class="fw-bold border-bottom border-1 border-light pb-2">修改密碼</p>
-                                            <div class="text-light gy-5 mb-12">
-                                                <div class="row mb-5">
-                                                    <div class="col-3">舊密碼</div>
-                                                    <div class="col-9 col-lg-6">
-                                                        <input type="password" class="form-control">
-                                                    </div>
-                                                    <div class="col-lg-3"></div>
+                                            </li>
+                                        </ul>
+                                    </form>
+                                    <form>
+                                        <h2 class="h6 fw-bold border-bottom border-1 border-light pb-2 mb-4">修改密碼</h2>
+                                        <ul class="list-unstyled text-light gy-5 mb-12">
+                                            <li class="row mb-5">
+                                                <label for="passwordPrevious" class="col-3 form-label">舊密碼</label>
+                                                <div class="col-9 col-lg-6">
+                                                    <input type="password" class="form-control" id="passwordPrevious">
                                                 </div>
-                                                <div class="row mb-5">
-                                                    <div class="col-3">新密碼</div>
-                                                    <div class="col-9 col-lg-6">
-                                                        <input type="password" class="form-control">
-                                                    </div>
-                                                    <div class="col-lg-3"></div>
+                                            </li>
+                                            <li class="row mb-5">
+                                                <label for="passwordNew" class="col-3 form-label">新密碼</label>
+                                                <div class="col-9 col-lg-6">
+                                                    <input type="password" class="form-control" id="passwordNew">
                                                 </div>
-                                                <div class="row mb-5">
-                                                    <div class="col-3">確認密碼</div>
-                                                    <div class="col-9 col-lg-6">
-                                                        <input type="password" class="form-control mb-4">
-                                                        <button class="btn btn-primary">變更密碼</button>
-                                                    </div>
-                                                    <div class="col-lg-3"></div>
+                                            </li>
+                                            <li class="row mb-5">
+                                                <label for="passwordConfirm" class="col-3 form-label">確認密碼</label>
+                                                <div class="col-9 col-lg-6">
+                                                    <input type="password" class="form-control mb-6" id="passwordConfirm">
+                                                    <button class="btn btn-primary">變更密碼</button>
                                                 </div>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                            </li>
+                                        </ul>
+                                    </form>
+
                                 </div>
+                                <!--訂單查詢-->
                                 <div class="tab-pane fade mb-10" id="訂單查詢">
                                     <p class="fw-bold border-bottom border-1 border-light pb-2 mt-10 mt-lg-0">訂單查詢</p>
                                     <p class="text-light">You don't have any order history.</p>
                                 </div>
+                                <!--退換貨申請-->
                                 <div class="tab-pane fade mb-10" id="退換貨申請">
                                     <p class="fw-bold border-bottom border-1 border-light pb-2 mt-10 mt-lg-0">退換貨申請</p>
                                     <p class="text-light">You don't have any history.</p>

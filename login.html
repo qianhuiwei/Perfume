@@ -145,28 +145,31 @@
                 <p class="text-dark fs-5 mb-20"></p>
             </div>
         </div>
-        
+
         <div class="container mt-lg-20 mb-lg-20">
             <div class="row">
                 <div class="col-lg-8">
                     <img class="mb-7 mb-lg-0" src="images/login1 Cropped.jpg" alt="login background">
                 </div>
+                <!--login forms-->
                 <div class="col-lg-4">
                     <h2 class="fs-2 mb-3 fw-bold">Log in</h2>
-                    <ul class="list-unstyled mb-4">
-                        <li class="mb-5">
-                            <label for="input-group-text" class="form-label">帳號</label>
+                    <form class="mb-4">
+                        <!--input email-->
+                        <div class="mb-5">
+                            <label for="inputEmail" class="form-label">帳號</label>
                             <div class="input-group mb-3">
-                                <input type="email" class="form-control" placeholder="email@example.com">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="email@example.com">
                             </div>
-                        </li>
-                        <li class="mb-5">
-                            <label for="input-group-text" class="form-label">帳號</label>
+                        </div>
+                        <!--input password-->
+                        <div class="mb-5">
+                            <label for="inputPassword" class="form-label">密碼</label>
                             <div class="input-group mb-3">
-                                <input type="password" class="form-control" placeholder="Password">
+                                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
                             </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </form>
                     <div class="d-flex justify-content-between align-items-center mt-4 mt-lg-0 mb-20">
                         <a class="link-primary" href="#">忘記密碼</a>
                         <div>
