@@ -17759,7 +17759,11 @@ ul {
 }
 
 .hover-text-black:hover {
-  color: black;
+  color: black !important;
+}
+
+.hover-text-darken:hover {
+  color: #7b5215 !important;
 }
 
 .hover-bg-light-gray:hover {
@@ -17769,6 +17773,11 @@ ul {
 .hover-opacity:hover {
   -webkit-filter: opacity(0.8);
           filter: opacity(0.8);
+}
+
+.focus-reset:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 /* customize bootstrap class effects for bootstrap components*/

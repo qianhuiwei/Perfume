@@ -8,7 +8,11 @@
 }
 
 .hover-text-black:hover{
-    color:black;
+    color:black !important;
+}
+
+.hover-text-darken:hover{
+    color:#7b5215 !important;
 }
 
 .hover-bg-light-gray:hover{
@@ -17,4 +21,8 @@
 
 .hover-opacity:hover {
     filter:opacity(0.8);
+}
+
+.focus-reset:focus {
+    box-shadow: none;
 }
