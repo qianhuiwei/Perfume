@@ -47,8 +47,7 @@
                         <li class="nav-item d-lg-flex align-items-center">
                             <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
                                 href="product.html">Product</a>
-                            <a class="link-dark ps-4 pe-4 d-none d-lg-flex align-items-lg-center"
-                                href="product.html">
+                            <a class="link-dark ps-4 pe-4 d-none d-lg-flex align-items-lg-center" href="product.html">
                                 <span class="material-icons">store</span>
                                 <span>Product</span>
                             </a>
@@ -56,8 +55,7 @@
                         <li class="nav-item d-lg-flex align-items-center">
                             <a class="nav-link bg-gray-4 text-white border-bottom border-white pt-4 pb-4 hover-bg-black-transparent d-lg-none"
                                 href="#">Wishlist</a>
-                            <a class="link-dark ps-4 pe-4 d-none d-lg-flex align-items-lg-center"
-                                href="login.html">
+                            <a class="link-dark ps-4 pe-4 d-none d-lg-flex align-items-lg-center" href="login.html">
                                 <span class="material-icons">person</span>
                                 <span>log in</span>
                             </a>
@@ -89,38 +87,63 @@
     </div>
 
     <div class="main mt-5 mt-lg-0">
-        <div class="nav-container bg-primary pt-4 pb-4 mb-20 d-none d-lg-block">
-            <!--nav tabs-->
-            <ul class="nav container">
-                <li class="nav-item"><a href="#chanel" class="nav-link link-white fs-5 pe-7 active"
-                        data-bs-toggle="tab">CHANEL</a></li>
-                <li class="nav-item"><a href="#joMalone" class="nav-link link-white fs-5 pe-7"
-                        data-bs-toggle="tab">Jo Malone</a></li>
-                <li class="nav-item"><a href="#curology" class="nav-link link-white fs-5 pe-7"
-                        data-bs-toggle="tab">Curology</a></li>
-                <li class="nav-item"><a href="#dior" class="nav-link link-white fs-5 pe-7" data-bs-toggle="tab">Dior</a>
+        <!--nav tabs-->
+        <div class="bg-primary pt-4 pb-4 mb-20 d-none d-lg-block">
+            <ul class="nav container" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a href="#" class="nav-link active link-white fs-5 pe-7 hover-text-black" id="chanel-tab"
+                        data-bs-toggle="tab" data-bs-target="#chanel" type="button" role="tab" aria-controls="chanel"
+                        aria-selected="true">CHANEL</a>
                 </li>
-                <li class="nav-item"><a href="#chloe" class="nav-link link-white fs-5 pe-7"
-                        data-bs-toggle="tab">Chloe</a></li>
-                <li class="nav-item"><a href="#zara" class="nav-link link-white fs-5 pe-7" data-bs-toggle="tab">Zara</a>
+                <li class="nav-item" role="presentation">
+                    <a href="#" class="nav-link link-white fs-5 pe-7 hover-text-black" id="joMalone-tab"
+                        data-bs-toggle="tab" data-bs-target="#joMalone" type="button" role="tab"
+                        aria-controls="joMalone" aria-selected="false">Jo
+                        Malone</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a href="#" class="nav-link link-white fs-5 pe-7 hover-text-black" id="curology-tab"
+                        data-bs-toggle="tab" data-bs-target="#curology" type="button" role="tab"
+                        aria-controls="curology" aria-selected="false">Curology</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a href="#" class="nav-link link-white fs-5 pe-7 hover-text-black" id="dior-tab"
+                        data-bs-toggle="tab" data-bs-target="#dior" type="button" role="tab" aria-controls="dior"
+                        aria-selected="false">Dior</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a href="#" class="nav-link link-white fs-5 pe-7 hover-text-black" id="chloe-tab"
+                        data-bs-toggle="tab" data-bs-target="#chloe" type="button" role="tab" aria-controls="chloe"
+                        aria-selected="false">Chloe</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a href="#" class="nav-link link-white fs-5 pe-7 hover-text-black" id="zara-tab"
+                        data-bs-toggle="tab" data-bs-target="#zara" type="button" role="tab" aria-controls="zara"
+                        aria-selected="false">Zara</a>
                 </li>
             </ul>
-            <!--nav panes-->
-            <div class="tab-content container">
-                <div class="tab-pan fade active show" id="chanel">
-                </div>
-                <div class="tab-pan fade" id="joMalone">
-                </div>
-                <div class="tab-pan fade" id="curology">
-                </div>
-                <div class="tab-pan fade" id="dior">
-                </div>
-                <div class="tab-pan fade" id="chloe">
-                </div>
-                <div class="tab-pan fade" id="zara">
-                </div>
+        </div>
+        <!--nav panes-->
+        <div class="tab-content container">
+            <div class="tab-pane fade show active" id="chanel" role="tabpanel" aria-labelledby="chanel-tab">
+            </div>
+            <div class="tab-pane fade" id="joMalone" role="tabpanel" aria-labelledby="joMalone-tab">
+                <p class="text-dark fs-5 mb-20"></p>
+            </div>
+            <div class="tab-pane fade" id="curology" role="tabpanel" aria-labelledby="curology-tab">
+                <p class="text-dark fs-5 mb-20"></p>
+            </div>
+            <div class="tab-pane fade" id="dior" role="tabpanel" aria-labelledby="dior-tab">
+                <p class="text-dark fs-5 mb-20"></p>
+            </div>
+            <div class="tab-pane fade" id="chloe" role="tabpanel" aria-labelledby="chloe-tab">
+                <p class="text-dark fs-5 mb-20"></p>
+            </div>
+            <div class="tab-pane fade" id="zara" role="tabpanel" aria-labelledby="zara-tab">
+                <p class="text-dark fs-5 mb-20"></p>
             </div>
         </div>
+        
         <div class="product-detail container mb-lg-15">
             <div class="row">
                 <div class="col-lg-8">
@@ -164,8 +187,8 @@
                         </div>
                     </div>
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn d-flex align-items-center ps-0 mb-10 mb-lg-20" data-bs-toggle="modal"
-                        data-bs-target="#addFavModal">
+                    <button type="button" class="btn d-flex align-items-center ps-0 mb-10 mb-lg-20"
+                        data-bs-toggle="modal" data-bs-target="#addFavModal">
                         <span class="material-icons text-primary">
                             favorite
                         </span>
@@ -193,7 +216,8 @@
                         </li>
                         <li>
                             <p class="fw-bold mb-2">退換貨須知</p>
-                            <p class="fw-light mb-5">依《消費者保護法》的規定，於全站購物皆享有商品到貨【七日猶豫期】（含例假日）之權益。若收到的商品有任何問題，可於猶豫期內申請退貨。</p>
+                            <p class="fw-light mb-5">依《消費者保護法》的規定，於全站購物皆享有商品到貨【七日猶豫期】（含例假日）之權益。若收到的商品有任何問題，可於猶豫期內申請退貨。
+                            </p>
                         </li>
                     </ul>
                     <img class="d-lg-none mb-4" src="images/product2.jpg" alt="product">
