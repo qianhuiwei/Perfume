@@ -33,7 +33,7 @@ $theme-colors: (
 ) ;
 
 // spacing
-$spacer: 1rem / 4 !default; //4px
+$spacer: 1rem / 4;     //4px
 $spacers: (
   0: 0,
   1: $spacer,          //4px
