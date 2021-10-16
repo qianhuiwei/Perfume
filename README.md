@@ -19,38 +19,57 @@ https://qianhuiwei.github.io/Perfume/
 
 ## Customized SCSS Variables
 ```scss
+// colors
 $theme-colors: (
-primary: #916019
-Secondary: #AC8A46
-dark: #8D8D8D
-light: #818A91 
-gray-1: #707070
-gray-2: #E0E0E0
-gray-3: #CED4DA
-gray-4: #848484
-Gray-5: #A5A5A5
-)
+  "primary":    #916019,
+  "secondary":  #AC8A46,
+  "light":      #818A91,
+  "dark":       #8D8D8D,
+  "gray-1":     #E0E0E0,
+  "gray-2":     #CED4DA,
+  "gray-3":     #A5A5A5,
+  "gray-4":     #848484,
+  "gray-5":     #707070
+) ;
 
-* Spacing
-Spacer: 4px
-1: spacer*1
-2: spacer*2
-3: spacer*3
-…
-18:spacer*18
-19: spacer*19
-20: spacer*20
+// spacing
+$spacer: 1rem / 4; //4px
+$spacers: (
+  0: 0,
+  1: $spacer,          //4px
+  2: $spacer * 2,     
+  3: $spacer * 3,     
+  4: $spacer * 4,    
+  5: $spacer * 5,     // 20px
+  6: $spacer * 6,     
+  7: $spacer * 7,     
+  8: $spacer * 8,    
+  9: $spacer * 9,    
+  10: $spacer * 10,   // 40px
+  11: $spacer * 11,  
+  12: $spacer * 12,   
+  13: $spacer * 13,   
+  14: $spacer * 14,   
+  15: $spacer * 15,   // 60px
+  16: $spacer * 16,  
+  17: $spacer * 17,   
+  18: $spacer * 18,   
+  19: $spacer * 19,   
+  20: $spacer * 20,   // 80px
+) ;
 
-* Body 
-body-color: #000
+// body
+$body-color: #000;
 
-* Links
-link-decoration: none
+// links
+$link-decoration: none;
 
-* Font-size
-fs-1: 40
-fs-2: 32 
-fs-3: 28 
-fs-4: 24
-fs-5: 20
-fs-6: 14  
+// font-sizes
+$font-sizes: (
+  1: 40px,
+  2: 32px,
+  3: 28px,
+  4: 24px,
+  5: 20px,
+  6: 14px
+) ;
