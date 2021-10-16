@@ -33,30 +33,17 @@ $theme-colors: (
 ) ;
 
 // spacing
-$spacer: 1rem / 4; //4px
+$spacer: 1rem / 4 !default; //4px
 $spacers: (
   0: 0,
   1: $spacer,          //4px
-  2: $spacer * 2,     
-  3: $spacer * 3,     
-  4: $spacer * 4,    
-  5: $spacer * 5,     // 20px
-  6: $spacer * 6,     
-  7: $spacer * 7,     
-  8: $spacer * 8,    
-  9: $spacer * 9,    
-  10: $spacer * 10,   // 40px
-  11: $spacer * 11,  
-  12: $spacer * 12,   
-  13: $spacer * 13,   
-  14: $spacer * 14,   
-  15: $spacer * 15,   // 60px
-  16: $spacer * 16,  
-  17: $spacer * 17,   
-  18: $spacer * 18,   
-  19: $spacer * 19,   
+  2: $spacer * 2,     // 8px
+  3: $spacer * 3,     // 12px
+  // and so on...
+  18: $spacer * 18,   // 72px
+  19: $spacer * 19,   // 78px
   20: $spacer * 20,   // 80px
-) ;
+) !default;
 
 // body
 $body-color: #000;
