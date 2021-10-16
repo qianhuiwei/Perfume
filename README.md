@@ -17,7 +17,7 @@ https://qianhuiwei.github.io/Perfume/
 * Imported icons from [Material icons](https://material.io/tools/icons/).
 * Tested with Chrome and Safari.
 
-## Customized SCSS Variables
+## Customized SCSS variables
 ```scss
 // colors
 $theme-colors: (
