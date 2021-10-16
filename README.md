@@ -18,8 +18,8 @@ https://qianhuiwei.github.io/Perfume/
 * Tested with Chrome and Safari.
 
 ## Customized SCSS Variables
-```json
-* Colors 
+```scss
+$theme-colors: (
 primary: #916019
 Secondary: #AC8A46
 dark: #8D8D8D
@@ -29,6 +29,7 @@ gray-2: #E0E0E0
 gray-3: #CED4DA
 gray-4: #848484
 Gray-5: #A5A5A5
+)
 
 * Spacing
 Spacer: 4px
