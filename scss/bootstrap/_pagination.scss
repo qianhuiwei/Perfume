@@ -9,23 +9,23 @@
   color: $pagination-color;
   text-decoration: if($link-decoration == none, null, none);
   background-color: $pagination-bg;
-  border: $pagination-border-width solid $pagination-border-color;
+  border: none;
   @include transition($pagination-transition);
 
   &:hover {
     z-index: 2;
-    color: $pagination-hover-color;
+    color: #916019 !important;
     text-decoration: if($link-hover-decoration == underline, none, null);
-    background-color: $pagination-hover-bg;
+    background-color: transparent;
     border-color: $pagination-hover-border-color;
   }
 
   &:focus {
     z-index: 3;
-    color: $pagination-focus-color;
-    background-color: $pagination-focus-bg;
+    color: #916019;
+    background-color: transparent;
     outline: $pagination-focus-outline;
-    box-shadow: $pagination-focus-box-shadow;
+    box-shadow: none;
   }
 }
 
@@ -36,9 +36,12 @@
 
   &.active .page-link {
     z-index: 3;
-    color: $pagination-active-color;
+    color: #916019;
     @include gradient-bg($pagination-active-bg);
     border-color: $pagination-active-border-color;
+    border-bottom: 2px solid #916019;
+    border-radius: 0px !important;
+    background-color: transparent;
   }
 
   &.disabled .page-link {
