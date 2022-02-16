@@ -11,7 +11,7 @@ https://qianhuiwei.github.io/Perfume/
 
 ## Features
 * Worked with the [Adobe XD design specs](https://xd.adobe.com/view/dc5ebe5c-3e56-4981-a010-158b5ded0e72-890d/specs/).
-* Designed and customized styles using Bootstrap 5.
+* Designed and customized styles using [Bootstrap 5](https://getbootstrap.com).
 * Managed CSS with SCSS.
 * Developed with mobile-first RWD.
 * Imported icons from [Material icons](https://material.io/tools/icons/).
